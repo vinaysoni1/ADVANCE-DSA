@@ -11,7 +11,7 @@ public class B_to_Decimal {
         return res;
     }
     public static void main(String[] args) {
-       int n=1011;
+       int n=1111;
     System.out.println(BD(n));
     }
     
