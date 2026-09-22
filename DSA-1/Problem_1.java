@@ -1,7 +1,9 @@
 class Problem_1 {
+
     static boolean isSorted(int arr[], int n) {
         for (int i = 1; i < n; i++) {
-            if (arr[i] < arr[i - 1]) {
+            // if (arr[i] < arr[i - 1]) { increasing order
+             if (arr[i] > arr[i - 1]) { //decreasing order
                 return false;
             }
         }
